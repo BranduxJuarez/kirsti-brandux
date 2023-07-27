@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{vue,js,ts,jsx,tsx}", "./index.html"],
+  content: ["./src/**/*.{vue,js,ts,jsx,tsx}", "./kirsti-brandux/index.html"],
   theme: {
     extend: {
       backgroundImage: {
