@@ -15,13 +15,5 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, 'src')
     }
-  },
-  build: {
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, 'kirsti-brandux/index.html'),
-      },
-    },
-  },
+  }
 })
