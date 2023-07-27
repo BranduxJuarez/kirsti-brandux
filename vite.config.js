@@ -9,6 +9,8 @@ export default defineConfig({
   define: {
     'process.env': {}
   },
+  // base: '/kirsti-brandux/',
+  base: "/",
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')
