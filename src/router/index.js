@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from "vue-router"
 const routes = [
   {
     name: 'home',
-    path: '/',
+    path: '/kirsti-brandux',
     component: () => import('@/views/Home.vue')
   }
 ]

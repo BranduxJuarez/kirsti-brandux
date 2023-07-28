@@ -27,6 +27,6 @@ const couples = ['Kirsti', 'Brandux']
 const route = useRoute()
 let query = computed(() => route.query)
 
-if ( route.query.to === undefined ) query = { to: 'Cesar Pareja' }
+if ( route.query.to === undefined ) query = { to: '' }
 
 </script>
