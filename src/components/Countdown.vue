@@ -1,6 +1,6 @@
 <template>
   <div class="px-2 py-4">
-    <p class="mx-auto text-center text-sm text-gray-100 w-10/12 mb-2">Menuju acara resepsi kami</p>
+    <p class="mx-auto text-center text-sm text-gray-100 w-10/12 mb-2">Cuenta Regresiva</p>
     <section class="flex justify-center gap-3 ">
       <template v-for="(value, name, index) in countdown" :key="index">
         <div 
@@ -44,7 +44,7 @@ const createTimer = (target, container, cb) => {
 }
 
 const timer = setInterval(() => {
-  createTimer(new Date('2022-05-23 08:30').getTime(), countdown, () => {
+  createTimer(new Date('2024-05-11 08:30').getTime(), countdown, () => {
     clearInterval(timer)
   })
 }, 1000)

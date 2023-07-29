@@ -1,7 +1,7 @@
 <template>
   <section class="w-full">
     <section class="container-section">
-      <HeaderSection title="Kisah Cinta Kami" />
+      <HeaderSection title="Nuestra historia de amor" />
       <div class="mt-6">
         <Card>
           <template v-slot:body>

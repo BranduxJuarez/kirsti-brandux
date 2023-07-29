@@ -9,7 +9,7 @@
 <template>
   <section class="w-full bg-gradient-to-b from-gray-700 to-gray-600">
     <section class="container-section pb-12">
-      <HeaderSection text-color="text-gray-100" subtitle="Dengan tidak mengurangi rasa hormat, kami mengajak para tamu undangan agar bisa berhadir pada serangkaian acara kami" title="Runtutan Acara"></HeaderSection>
+      <HeaderSection text-color="text-gray-100" subtitle="Con no menos respeto, invitamos a los invitados a asistir a nuestra serie de eventos." title="Calendario de eventos"></HeaderSection>
       <Card>
         <template v-slot:body>
           <div class="bg-gray-900 px-6 py-8 text-center text-sm font-medium" v-for="(timeline, index) in timelines" :key="index">
@@ -32,10 +32,10 @@
             <Countdown></Countdown>
             <!-- Button to Guest Book -->
             <div class="px-6 pt-5 pb-8 text-center">
-              <p class="text-sm text-gray-100">Konfirmasi kehadiran anda pada buku tamu</p>
+              <p class="text-sm text-gray-100">Confirma tu presencia en el libro de visitas</p>
               <button @click="goToGuestBook" class="btn">
                 <i class="fa-solid fa-clipboard-check"></i>
-                Konfirmasi
+                Quiero asistir!!!
               </button>
             </div>
             <img src="@/assets/images/couples.jpg" alt="">
