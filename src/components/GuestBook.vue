@@ -89,6 +89,7 @@ const showAlert = ref(false)
 
 //URL
 const scriptURL = "https://script.google.com/macros/s/AKfycbzPgWJ7760OwwRlvjhrBMSM9HTVJL2wjDnDB3Up9ZOEIm09LMBwpmSpkQ6eGjAPGPCH/exec"
+// https://script.google.com/u/1/home/projects/14rNXWZhQwpzMdwuVtl0MIipr7bHwQ3sR43wgLMF1k_dfkIBfdnRDET9I/edit
 const sendMessage = ( evt ) => {
   evt.preventDefault()
   

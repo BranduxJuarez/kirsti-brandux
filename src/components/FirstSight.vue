@@ -2,7 +2,7 @@
   <section class="w-full mb-12">
     <wave class="fill-gray-800"></wave>
     <section class="container-section">
-      <HeaderSection title="Primera vista"></HeaderSection>
+      <HeaderSection title="Bienvenidos"></HeaderSection>
       <Card title="Kisah kami berawal dari">
         <template v-slot:body>
           <p class="text-sm p-6 text-justify">

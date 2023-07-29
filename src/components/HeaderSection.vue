@@ -17,7 +17,7 @@ const props = defineProps({
   }, 
   subtitle: {
     type: String,
-    default: 'Duis splople autem vel eum iriure Dapibus sit amet, tincidunt eu, nibh.'
+    default: 'EL AMOR: acepta todo con paciencia, Siempre confia, Nunca pierde la esperanza, Todo lo soporta. - 1 Corintios 13:7'
   },
   textColor: {
     type: String,
