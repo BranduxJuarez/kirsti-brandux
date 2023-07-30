@@ -8,7 +8,7 @@
 				{ "icon": "fab fa-twitter", "link": "http://fake.com" }
 			],
 			"parents": ["Ramon Juarez", "Marlene Avila"],
-			"thumb": "/couples/couple-male.jpg",
+			"thumb": "couples/couple-male.jpg",
 			"address": "La Curva"
 		},
 		{
@@ -19,7 +19,7 @@
 				{ "icon": "fab fa-twitter", "link": "http://fake.com" }
 			],
 			"parents": ["Jose Martinez", "Julie Moreno"],
-			"thumb": "/couples/couple-female.jpg",
+			"thumb": "couples/couple-female.jpg",
 			"address": "La Curva"
 		}
 	]
